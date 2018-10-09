@@ -1,8 +1,8 @@
 # Splunk command cheat sheet
 
-# Comparison operators
+## Comparison operators
 
-# Aggregation
+## Aggregation
 |command|description|
 |---|---|
 | stats ***aggregation_operator*** by ***field1,field2*** | Aggregate over ***field1*** and ***field2***. Generates rows for ***field2*** values |
@@ -10,7 +10,7 @@
 | timechart ***aggregation_operator*** by ***field*** span=***time_span*** | Aggregate by one or multiple fields in buckets with a size of 'span' (e.g. 5m)
 
 
-# Aggregation operators
+## Aggregation operators
 Check out: http://docs.splunk.com/Documentation/Splunk/7.1.2/SearchReference/CommonStatsFunctions
 
 Some useful aggregation operators (not an exhaustive list):

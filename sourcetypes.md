@@ -1,4 +1,4 @@
-# Splunk Sourcetype cheat sheet
+# Splunk BOTS Sourcetype cheat sheet
 
 |Sourcetype |Description|
 |---|---|
